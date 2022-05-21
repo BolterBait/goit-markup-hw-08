@@ -1,0 +1,28 @@
+%align-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%justify-content {
+  display: flex;
+  justify-content: center;
+}
+
+%align-list {
+  display: flex;
+  align-items: center;
+}
+
+%button {
+  color: $background-text-color;
+  background-color: $link-hover-color;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  min-width: 200px;
+  border: 0px;
+  border-radius: 4px;
+}

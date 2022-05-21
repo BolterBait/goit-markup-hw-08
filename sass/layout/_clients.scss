@@ -1,0 +1,25 @@
+.our-partners-link {
+  width: 170px;
+  height: 92px;
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  @extend %align-items;
+  background-color: $background-text-color;
+  fill: rgba(175, 177, 184, 1);
+
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: $link-hover-color;
+    border: 1px solid $link-hover-color;
+  }
+}
+
+.our-partners-list {
+  @extend %justify-content;
+}
+
+.our-partners-item + .our-partners-item {
+  margin-left: 30px;
+}

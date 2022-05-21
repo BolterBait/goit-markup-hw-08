@@ -1,0 +1,19 @@
+body {
+  color: $text-decoration-color;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  font-family: Raleway, sans-serif;
+  @include font(700, 26px, 1.19, 0.03em);
+  color: $link-hover-color;
+  &__header {
+    margin-right: 93px;
+  }
+  &__dark {
+    color: #000000;
+  }
+  &--light {
+    color: $background-text-color;
+  }
+}

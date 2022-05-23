@@ -7,8 +7,10 @@ $background-text-color: #ffffff;
 $border-color: #eeeeee;
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  // padding-top: 94px;
+  // padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   &--nopaddingtop {
     padding-top: 0px;
   }

@@ -17,3 +17,10 @@ body {
     color: $background-text-color;
   }
 }
+
+.section__title {
+  @include font(700, 36px, 1.17, 0.03em);
+  margin-top: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}

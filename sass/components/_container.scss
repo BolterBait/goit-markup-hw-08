@@ -5,10 +5,13 @@
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
-  @media screen and (min-width: 480px) {
+  @include mobile {
     max-width: 480px;
   }
-  @media screen and (min-width: 768px) {
+  @include tablet {
     max-width: 768px;
+  }
+  @include desktop {
+    max-width: 1200px;
   }
 }

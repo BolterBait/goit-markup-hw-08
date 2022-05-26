@@ -1,9 +1,4 @@
 .our-partners-link {
-  // max-width: 210px;
-  // @include mobile {
-  //   width: 210px;
-  // }
-
   @media screen and (min-width: 768px) {
     width: 226px;
   }
@@ -40,7 +35,7 @@
 }
 
 .our-partners-item:not(:nth-child(3n + 1)) {
-  @include tablet {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: 30px;
   }
 }
@@ -66,12 +61,17 @@
   @include mobile {
     width: 210px;
   }
-  @include tablet {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 226px;
     margin-bottom: 30px;
   }
+  @include desktop {
+    width: 170px;
+  }
 }
 
-// .our-partners-item + .our-partners-item {
-//   margin-left: 30px;
-// }
+.our-partners-item + .our-partners-item {
+  @include desktop {
+    margin-left: 30px;
+  }
+}

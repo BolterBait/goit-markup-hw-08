@@ -4,12 +4,17 @@
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .site-nav {
-  display: flex;
-  &__item {
-    margin-left: 50px;
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    &__item {
+      margin-left: 50px;
+    }
   }
 }
 
@@ -51,6 +56,7 @@
 
 .contacts__item {
   margin-left: 50px;
+  display: none;
 }
 
 .contacts__icon,
@@ -59,6 +65,7 @@
 }
 
 .header {
+  position: relative;
   background-color: $background-text-color;
   border-bottom: 1px solid #ececec;
 }

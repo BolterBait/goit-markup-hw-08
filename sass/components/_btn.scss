@@ -44,3 +44,33 @@
     cursor: pointer;
   }
 }
+
+.menu-toggle {
+  display: inline-flex;
+  margin-left: auto;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+// .open-mobile-menu .icon-cross {
+//   display: none;
+// }
+
+// .open-mobile-menu.is-open .icon-cross {
+//   display: block;
+// }
+
+// .open-mobile-menu.is-open .mobile-menu {
+//   display: none;
+// }
+
+// .menu-container.is-open .icon-menu {
+//   display: none;
+// }
+
+// .icon-cross {
+//   padding: 0;
+//   border: none;
+//   background-color: transparent;
+// }

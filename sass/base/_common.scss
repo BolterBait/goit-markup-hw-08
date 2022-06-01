@@ -5,10 +5,18 @@ body {
 
 .logo {
   font-family: Raleway, sans-serif;
+  @media screen and (max-width: 767px) {
+    @include font(700, 24px, 1.17, 0.03em);
+  }
   @include font(700, 26px, 1.19, 0.03em);
   color: $link-hover-color;
   &__header {
-    margin-right: 93px;
+    @include tablet {
+      margin-right: 88px;
+    }
+    @include desktop {
+      margin-right: 93px;
+    }
   }
   &__dark {
     color: #000000;

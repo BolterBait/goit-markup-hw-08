@@ -1,6 +1,9 @@
 .menu-container {
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 767px) {
     padding: 48px 40px 48px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   position: fixed;
   top: 0;
@@ -41,8 +44,11 @@
 }
 
 .mob-contacts {
-  margin-top: 100%;
   margin-bottom: 64px;
+
+  // @media screen and (min-width: 480px) {
+  //   margin-top: 100%;
+  // }
 }
 .mob-nav__link,
 .mob-contacts__link,
@@ -92,6 +98,9 @@
     line-height: 1.22;
     letter-spacing: 0.02em;
     color: $link-hover-color;
+    @media screen and (max-width: 419px) {
+      font-size: 14px;
+    }
   }
 }
 .mob-soc-list__item {

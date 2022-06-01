@@ -2,7 +2,6 @@
   @media screen and (min-width: 768px) {
     width: 226px;
   }
-
   @include desktop {
     width: 170px;
   }
@@ -54,12 +53,9 @@
 
 .our-partners-item {
   @media screen and (max-width: 767px) {
-    max-width: 210px;
+    max-width: 300px;
     width: calc(100% / 2 - 30px);
     margin-bottom: 30px;
-  }
-  @include mobile {
-    width: 210px;
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     width: 226px;

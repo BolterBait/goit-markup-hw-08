@@ -218,19 +218,43 @@
           <h2 class="section__title">Чем мы занимаемся</h2>
           <ul class="works-list">
             <li class="works-list__item">
-              <img src="./images/box-1.jpg" alt="Структура сайту" width="370" />
+              <img
+                srcset="
+                  ./images/desktop/imgpc-2x-min.jpg,
+                  ./images/desktop/imgpc-min.jpg
+                "
+                src="./images/box-1.jpg"
+                alt="Структура сайту"
+                width="370"
+              />
               <div class="works-list__overlay">
                 <p class="work-list__text">Десктопные приложения</p>
               </div>
             </li>
             <li class="works-list__item">
-              <img src="./images/box-2.jpg" alt="Розмітка сайту" width="370" />
+              <img
+                srcset="
+                  ./images/desktop/img2-2-2x-min.jpg,
+                  ./images/desktop/img2-2-min.jpg
+                "
+                src="./images/box-2.jpg"
+                alt="Розмітка сайту"
+                width="370"
+              />
               <div class="works-list__overlay">
                 <p class="work-list__text">Мобильные приложения</p>
               </div>
             </li>
             <li class="works-list__item">
-              <img src="./images/box-3.jpg" alt="Дизайн сайту" width="370" />
+              <img
+                srcset="
+                  ./images/desktop/img3-2-2x-min.jpg,
+                  ./images/desktop/img3-2-min.jpg
+                "
+                src="./images/box-3.jpg"
+                alt="Дизайн сайту"
+                width="370"
+              />
               <div class="works-list__overlay">
                 <p class="work-list__text">Дизайнерские решения</p>
               </div>
@@ -247,11 +271,32 @@
           <ul class="team-list">
             <li class="team-list__item">
               <article class="member-card">
-                <img
-                  src="./images/img.jpg"
-                  alt="Фото Игорь Демьяненко"
-                  width="270"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/imgigor-min.jpg   1x,
+                      ./images/desktop/imgigor2x-min.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/tablet/imgigor354-min.jpg    1x,
+                      ./images/tablet/imgigor354-2x-min.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/mobile/igor450-min.jpg    1x,
+                      ./images/mobile/igor450-2x-min.jpg 2x
+                    "
+                    media="(min-width:320px)"
+                  />
+                  <img src="./images/img.jpg" alt="Фото Игорь Демьяненко" />
+                </picture>
                 <div class="member-card__content">
                   <h3 class="member-card__title">Игорь Демьяненко</h3>
                   <p lang="en" class="member-card__text">Product Designer</p>
@@ -290,11 +335,32 @@
             </li>
             <li class="team-list__item">
               <article class="card">
-                <img
-                  src="./images/img-1.jpg"
-                  alt="Фото Ольга Репина"
-                  width="270"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/imgolga-min.jpg   1x,
+                      ./images/desktop/imgolga2x-min.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/tablet/imgolga-min.jpg   1x,
+                      ./images/tablet/imgolga2x-min.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/mobile/olga450-min.jpg    1x,
+                      ./images/mobile/olga450-2x-min.jpg 2x
+                    "
+                    media="(min-width:320px)"
+                  />
+                  <img src="./images/img-1.jpg" alt="Фото Ольга Репина" />
+                </picture>
                 <div class="member-card__content">
                   <h3 class="member-card__title">Ольга Репина</h3>
                   <p lang="en" class="member-card__text">Frontend Developer</p>
@@ -333,11 +399,32 @@
             </li>
             <li class="team-list__item">
               <article class="member-card">
-                <img
-                  src="./images/img-2.jpg"
-                  alt="Фото Николай Тарасов"
-                  width="270"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/imgmyha-min.jpg   1x,
+                      ./images/desktop/imgmyha2x-min.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/tablet/imgmyk-min.jpg   1x,
+                      ./images/tablet/imgmyk2x-min.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/mobile/imgmykola450-min.jpg    1x,
+                      ./images/mobile/imgmykola450-2x-min.jpg 2x
+                    "
+                    media="(min-width:320px)"
+                  />
+                  <img src="./images/img-2.jpg" alt="Фото Николай Тарасов" />
+                </picture>
                 <div class="member-card__content">
                   <h3 class="member-card__title">Николай Тарасов</h3>
                   <p lang="en" class="member-card__text">Marketing</p>
@@ -376,11 +463,32 @@
             </li>
             <li class="team-list__item">
               <article class="card">
-                <img
-                  src="./images/img-3.jpg"
-                  alt="Фото Михаил Ермаков"
-                  width="270"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/imgmyk-min.jpg   1x,
+                      ./images/desktop/imgmyk2x-min.jpg 2x
+                    "
+                    media="(min-width:1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/tablet/imgmyhay-min.jpg   1x,
+                      ./images/tablet/imgmyhay2x-min.jpg 2x
+                    "
+                    media="(min-width:768px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/mobile/imgmyhaylo450-min.jpg    1x,
+                      ./images/mobile/imgmyhaylo450-2x-min.jpg 2x
+                    "
+                    media="(min-width:320px)"
+                  />
+                  <img src="./images/img-3.jpg" alt="Фото Михаил Ермаков" />
+                </picture>
                 <div class="member-card__content">
                   <h3 class="member-card__title">Михаил Ермаков</h3>
                   <p lang="en" class="member-card__text">UI Designer</p>

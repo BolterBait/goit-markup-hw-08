@@ -67,10 +67,9 @@
   text-align: start;
   letter-spacing: 0.02em;
   color: $text-decoration-color;
-}
-
-.mob-nav__link--current {
-  color: $link-hover-color;
+  &--current {
+    color: $link-hover-color;
+  }
 }
 
 .mob-contacts__link--tel {

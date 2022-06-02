@@ -9,7 +9,10 @@
 }
 
 .filter {
-  @extend %justify-content;
+  margin-top: -15px;
+  display: flex;
+  flex-wrap: wrap;
+  // @extend %justify-content;
   margin-bottom: 50px;
 }
 
@@ -47,14 +50,14 @@
 
 .projects {
   list-style: none;
-  display: flex;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-wrap: wrap;
   margin-left: calc(-1 * $projects-card-gap);
   margin-top: calc(-1 * $projects-card-gap);
 }
 
 .projects-list {
-  flex-basis: calc(100% / 3 - $projects-card-gap);
+  // flex-basis: calc(100% / 3 - $projects-card-gap);
   margin-left: $projects-card-gap;
   margin-top: $projects-card-gap;
   background: $background-text-color;

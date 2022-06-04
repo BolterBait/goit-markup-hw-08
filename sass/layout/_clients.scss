@@ -24,7 +24,6 @@
 .our-partners-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 .our-partners-item:nth-of-type(2n) {
@@ -53,8 +52,7 @@
 
 .our-partners-item {
   @media screen and (max-width: 767px) {
-    max-width: 300px;
-    width: calc(100% / 2 - 30px);
+    width: calc((100% - 30px) / 2);
     margin-bottom: 30px;
   }
   @media screen and (min-width: 768px) and (max-width: 1199px) {

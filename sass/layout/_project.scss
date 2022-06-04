@@ -7,18 +7,21 @@
 .filter__item:not(:last-child) {
   margin-right: 8px;
 }
+.filter__item {
+  margin-top: 15px;
+}
 
 .filter {
   margin-top: -15px;
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
-  @include desktop {
-    margin-bottom: 50px;
-  }
-
   @include tablet {
     justify-content: center;
+    margin-bottom: 30px;
+  }
+  @include desktop {
+    margin-bottom: 50px;
   }
 }
 

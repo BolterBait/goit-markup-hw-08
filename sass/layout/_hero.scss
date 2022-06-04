@@ -1,21 +1,21 @@
 .hero__title {
   color: $background-text-color;
   margin: 0px auto 30px auto;
-  @include desktop {
-    width: 696px;
-  }
+
   width: 100%;
   @include font(900, 26px, 1.62, 0.06em);
   text-transform: uppercase;
+  @include desktop {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding: 118px 60px 118px 60px;
-  @include tablet {
-    padding: 118px 204px;
-  }
+  padding: 118px 0;
+
   @include desktop {
     padding-bottom: 200px;
     padding-top: 200px;
@@ -30,7 +30,6 @@
   background-size: cover;
   background-position: 0 0;
   max-width: 1600px;
-  // width: 100%;
   margin: 0 auto;
 
   @media (min-device-pixel-ratio: 2),

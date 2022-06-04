@@ -33,6 +33,18 @@
   }
 }
 
+.team-list__item:not(:last-child) {
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .adress-list > .list:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+
 .member-card__title {
   text-align: center;
   @include font(500, 16px, 1.19, 0.03em);
